@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>Jorge Francisco Garcia - Contact</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {% load static %}
+    
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href={% static 'core/css/bootstrap.min.css' %}>
+	<!-- Main css  -->
+	<link rel="stylesheet" href={% static 'core/css/style.css' %}>
+	<!-- Animate.css -->
+	<link rel="stylesheet" href={% static 'core/css/animate.css' %}>
+    <!-- Google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet'>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
+	</head>
+	<body>
+
+ 	<!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-static-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header pull-left">
+                        <a href="{% url 'index' %}" class="navbar-brand">
+                            <span class="brand-logo"><img src={% static 'core/images/logo.png' %} alt=""/></span>
+                        </a>
+    </nav>
+    <!-- /Navigation -->
+
+    <!-- Intro -->
+	<div id="inner-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 pull-right wow fadeInUp animated">
+						<h1 class="inner-heading"><span>Estoy abierto a nuevas propuestas,</span> sea para intercambiar info, o empezar un nuevo proyecto.</h1>
+						<div class="text-inner wow fadeInUp animated">ESCRIBIME: jrgfgarcia@gmail.com</div>
+					</div>
+				</div>
+			</div>
+	</div>
+    <!-- /Intro -->
+    
+    <!-- Contact Banner -->
+    <div class="container">
+         <div class="row">
+           <div class="banner">
+            <a href="mailto:jrgfgarcia@gmail.com" class="banner">
+             <img src={% static 'core/images/banner-contact.png' %} alt=""/>
+             </div>
+            </div>        
+     </div>
+     <!-- /Contact Banner -->
+
+       
+     <div class="container">
+           <div class="row">
+             <div class="linebreaks"></div>
+           </div>
+     </div>
+
+     <!-- Contact info -->
+     <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-sm-5 contact-margin wow fadeInUp animated">
+            <img src="" alt=""/>
+          </div>
+          {% comment %} <div class="col-md-7 col-sm-7 contact-margin">
+          <form method="post" action="">
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Name:</label>
+                            <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                        </div>
+                    </div>
+                   
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Email:</label>
+                            <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Message:</label>
+                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                        </div>
+                    </div>
+                    <div id="success"></div>
+                    <button type="submit" class="contact-btn btn">Send Message</button>
+                </form> {% endcomment %}
+          </div>
+        </div>
+     </div>
+     <!-- Contact info -->
+
+     <div class="container">
+           <div class="row">
+             <div class="linebreaks"></div>
+           </div>
+     </div>
+
+     <!-- Some text -->
+	 <div class="inner-projects">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 pull-right wow fadeInUp animated">
+						<h1 class="inner-projects-heading"></h1>
+					</div>
+				</div>
+			</div>
+	 </div>
+<!-- /Some text -->
+    
+<!-- Footer-->
+<footer>
+  <div class="container">
+      <div class="row">
+      <div class="col-md-3 col-sm-3">
+      </div>
+      <div class="col-md-6 col-sm6 section-bg-color">
+          <div class="row">
+          <div class="col-sm-9">
+              <p class="pull-right"><a href="https://www.linkedin.com/in/jorge-francisco-garcia/"><img src={% static 'core/images/linkedin.png' %} alt=""/></a></p>
+              <p class="pull-right icons-f"><a href="https://github.com/jorgefranciscogarcia"><img src={% static 'core/images/github.png' %} alt=""/></a></p>
+              <p class="pull-right icons-f"><a href="https://www.instagram.com/perojorrr"><img src={% static 'core/images/instagram.png' %} alt=""/></a></p>
+              <style>
+                  .contenedor {
+                      display: flex;
+                      justify-content;
+                  }
+              </style>
+          </div><!-- /col-sm-9 -->
+          </div><!--/row-->
+      </div><!-- /col-sm-6 -->
+      <div class="col-md-3 col-sm-3 section-bg-color1">
+          <div class="row">
+          <div class="col-sm-9">
+          </div><!-- /col-sm-9 -->
+          </div><!--/row-->
+      </div><!-- /col-sm-3 -->
+      </div><!-- /row -->
+  </div><!-- /container -->
+</footer><!-- /footer -->
+     
+	<!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+    <!-- Boostrap JS -->
+	<script src="js/bootstrap.min.js"></script>
+    <!-- Nav JS -->
+	<script src="js/nav.js"></script>
+    <!-- Smooth scroll JS -->
+    <script src="js/smoothscroll.js"></script>
+    <!-- Gogle map JS -->
+    <script src="js/app.js"></script> 
+    <!-- Wow JavaScript -->
+    <script src="js/wow.js"></script>
+    
+     <script>
+     new WOW().init();
+     </script>
+
+
+	</body>
+</html>
+

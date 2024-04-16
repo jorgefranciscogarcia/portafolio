@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>Jorge Francisco Garcia - Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% load static %}
+    
+    <!-- Bootstrap  -->
+	<link rel="stylesheet" href={% static 'core/css/bootstrap.min.css' %}>
+    <!-- Main css  -->
+	<link rel="stylesheet" href={% static 'core/css/style.css' %}>
+	<!-- Animate css -->
+	<link rel="stylesheet" href={% static 'core/css/animate.css' %}>
+    <!-- Google fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet'>
+
+	</head>
+	<body>
+
+<!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-static-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header pull-left">
+                        <a href="https://www.linkedin.com/in/jorge-francisco-garcia/" class="navbar-brand">
+                            <span class="brand-logo"><img src={% static 'core/images/logo.png' %} alt=""/></span>
+                        </a>
+                    </div>
+                    <div class="navbar-header pull-right">
+                        <a href="{% url 'contact' %}" class="navbar-brand">
+                            <span class="brand-logo"><img src={% static 'core/images/mail.png' %} alt=""/></span>
+                        </a>
+                    </div>
+                    {% comment %} <div class="main-nav pull-right">
+                        <div class="button_container toggle">
+                            <span class="top"></span>
+                            <span class="middle"></span>
+                            <span class="bottom"></span>
+                        </div>
+                    </div>
+                    <div class="overlay" id="overlay">
+                        <nav class="overlay-menu">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="studio.html">Studio</a></li>
+                                <li><a href="projects.html">Projects</a></li>
+                                <li><a href="project-description.html">Project description</a></li>
+                                <li><a href={% url 'contact' %}>contact</a></li>
+                            </ul>
+                        </nav>
+                    </div> {% endcomment %}
+                </div><!-- /container -->
+    </nav>
+
+<!-- /Navigation -->
+
+    <!-- Intro -->
+	<div id="home-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 pull-right">
+						<h1 class="home-heading wow fadeInUp animated">Mi nombre es Jorge, trabajo con computadoras hace 10 años, también toco la bateria <span>* una persona sincera y honesta, ejemplar, responsable, profesional.</span></h1>
+						<div class="text-home wow fadeInUp animated"><strong>Jorge Francisco Garcia</strong></div>
+					</div>
+				</div>
+			</div>
+	</div>
+    <!-- /Intro -->
+        
+    <!-- Main Banner -->
+    <div class="container">
+    <div class="row">
+    <div class="banner">
+    <div class="vertical-text"><a href="">*********</a></div>
+    <img src={% static 'core/images/banner.jpg' %} alt=""/>
+    </div>
+    </div>
+</div>
+
+<h1 style="text-align: center;">Me inicié en el mundo IT por medio de un amigo gracias al cual<br> 
+    trabajé por 10 años dentro de Volkswagen,<br> toda esa decada la enfoqué en lo que más me apasiona,
+    que es la música, la bateria.<br> En los últimos años me dediqué a ampliar mis conocimientos,<br> 
+    tomando cursos para dominar distintas herramientas, entre los cuales están:</h1>
+
+    <!-- Herramientas -->
+	 <div id="client-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 pull-right wow fadeInUp animated">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                    <img src={% static 'core/images/logo1.png' %} alt=""/></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                    <img src="{% static 'core/images/logo3.png' %}" alt="" class="client-logos"/> </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                    <img src={% static 'core/images/logo2.png' %} alt="" class="client-logos"/></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                    <img src={% static 'core/images/logo4.png' %} alt="" class="client-logos"/> </div>
+                </div>
+            </div>
+        </div>
+ </div>
+ <!-- /Herramientas-->
+ <h2 style="text-align: center;">-constantemente me formo para poder mejorar en mi carrera profesional-</h2>
+
+<h1 style="text-align: center;">---</h1>
+
+<div class="container">
+    <div class="row">
+    <div class="banner">
+    <div class="vertical-text"><a href="https://www.instagram.com/perojorrr/">*********</a></div>
+    <img src={% static 'core/images/bata.jpg' %} alt=""/>
+    </div>
+    </div>
+</div>
+
+<h1 style="text-align: center;">como baterista grabé los siguientes discos</h1>
+
+<!-- /Main Banner -->
+
+<div class="container">
+<div class="row">
+<div class="line-symbol"></div>
+</div>
+</div>
+
+<!-- Masonry -->
+<div class="container grid">
+<div class="row">
+
+<div id="photos">
+    
+<figure class="effect-julia">
+<a href="https://www.youtube.com/watch?v=v3Bd_gnqDwU">
+						<img src={% static 'core/images/photo1.gif' %} alt="img21"/>
+						<figcaption>
+							<div>
+								<p>RAN </p>
+								<p>2015</p>
+							</div>
+						</figcaption>	
+                       </a>		
+					</figure>
+
+                    <figure class="effect-julia">
+                       <a href="https://www.youtube.com/watch?v=EYr0xkrMGz0">
+						<img src={% static 'core/images/photo2.gif' %} alt="img21"/>
+						<figcaption>
+							<div>
+								<p>MENOS</p>
+								<p>2019</p>
+							</div>
+						</figcaption>	
+                       </a>		
+					</figure>
+
+                    <figure class="effect-julia">
+                       <a href="https://www.youtube.com/watch?v=ofV3BiWLMqU">
+						<img src={% static 'core/images/photo9.jpg' %} alt="img21"/>
+						<figcaption>
+							<div>
+								<p>PLENAMENTE</p>
+								<p>2020</p>
+							</div>
+						</figcaption>	
+                       </a>		
+					</figure>
+
+                    <figure class="effect-julia">
+                       <a href="https://www.youtube.com/watch?v=asqWcG6Iw_4">
+						<img src={% static 'core/images/photo8.jpg' %} alt="img21"/>
+						<figcaption>
+							<div>
+								<p>MARIA </p>
+								<p>2016</p>
+							</div>
+						</figcaption>	
+                       </a>		
+					</figure>
+
+                    <figure class="effect-julia">
+                      <a href="https://www.youtube.com/watch?v=tgxQ-hsX1VE">
+                       <img src={% static 'core/images/photo3.gif' %} alt="img21"/>
+                       <figcaption>
+                           <div>
+                               <p>EXCUSAS</p>
+                               <p>2015</p>
+                           </div>
+                       </figcaption>	
+                      </a>
+                    </figure>
+
+                    {% comment %} <div class="block">
+                    <div class="text">Como baterista
+                    <p>DISCOS GRABADOS</p>
+                    <p>*</p>
+                    </div>
+                    <a href="https://open.spotify.com/playlist/7vIKDjCzKmywCSIBtEwFJP?si=GNiJ1-EIRsqHAWWrsm-EmA&nd=1&dlsi=2ac87f4596d946f7" class="btn ghost-btn">Todos los discos</a>
+                    </div> {% endcomment %}
+                    
+                    <figure class="effect-julia">
+                       <a href="https://www.youtube.com/watch?v=-Vf-RCK1Td8">
+						<img src={% static 'core/images/photo5.gif' %} alt="img21"/>
+						<figcaption>
+							<div>
+								<p>A2DDF</p>
+								<p>2016</p>
+							</div>
+						</figcaption>	
+                       </a>		
+					</figure>
+
+                    <figure class="effect-julia">
+                       <a href="https://www.youtube.com/watch?v=4dbLPPo_AzI">
+						<img src={% static 'core/images/photo6.jpg' %} alt="img21"/>
+						<figcaption>
+							<div>
+								<p>A2DDF </p>
+								<p>2017</p>
+							</div>
+						</figcaption>	
+                       </a>		
+					</figure>
+
+                    <figure class="effect-julia">
+                        <a href="https://www.youtube.com/watch?v=TQ9GVcEVHTY">
+                         <img src={% static 'core/images/photo4.gif' %} alt="img21"/>
+                         <figcaption>
+                             <div>
+                                 <p>DESCARO</p>
+                                 <p>2023</p>
+                             </div>
+                         </figcaption>	
+                        </a>		
+                     </figure>
+                    
+                    <figure class="effect-julia">
+                       <a href="https://www.youtube.com/watch?v=VCzwLSZ8-Gs&t=1s">
+						<img src={% static 'core/images/photo7.jpg' %} alt="img21"/>
+						<figcaption>
+							<div>
+								<p>JUSTIFY</p>
+								<p>2013</p>
+							</div>
+						</figcaption>	
+                       </a>		
+					{% comment %} </figure>
+                    <div class="block1">
+                    <div class="text">Simplicity is the most difficult thing to secure in this world; it is the last limit experience and the last effort of genius.
+                    </div>
+                    <div class="story"><a href="studio.html">OUR STORY</a></div> {% endcomment %}
+                    </div>
+
+</div> <!-- /Masonry -->
+</div><!-- /row -->
+</div><!-- /container -->
+
+<!-- Line -->
+<div class="container">
+<div class="row">
+<div class="line-symbol1"></div>
+</div>
+</div>
+
+<!-- Clients -->
+{% comment %} 	<div id="client-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 pull-center wow fadeInUp animated">
+                        <img src={% static 'core/images/logo5.gif' %} alt="img21"/> <img src={% static 'core/images/logo5.gif' %} alt="img21"/> <img src={% static 'core/images/logo5.gif' %} alt="img21"/> 
+                        <style>
+                            .contenedor {
+                                display: flex;
+                                justify-content;
+                            }
+                        </style>
+					</div>
+				</div>
+			</div>
+	</div> {% endcomment %}
+
+<h1 style="text-align: center;"><a href="https://open.spotify.com/playlist/7vIKDjCzKmywCSIBtEwFJP?si=4e3dfc8f18814235">+</h1>
+
+<!-- Footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+        <div class="col-md-3 col-sm-3">
+        </div>
+        <div class="col-md-6 col-sm6 section-bg-color">
+            <div class="row">
+            <div class="col-sm-9">
+                <p class="pull-right"><a href="https://www.linkedin.com/in/jorge-francisco-garcia/"><img src={% static 'core/images/linkedin.png' %} alt=""/></a></p>
+                <p class="pull-right icons-f"><a href="https://github.com/jorgefranciscogarcia"><img src={% static 'core/images/github.png' %} alt=""/></a></p>
+                <p class="pull-right icons-f"><a href="https://www.instagram.com/perojorrr"><img src={% static 'core/images/instagram.png' %} alt=""/></a></p>
+                <style>
+                    .contenedor {
+                        display: flex;
+                        justify-content;
+                    }
+                </style>
+            </div><!-- /col-sm-9 -->
+            </div><!--/row-->
+        </div><!-- /col-sm-6 -->
+        <div class="col-md-3 col-sm-3 section-bg-color1">
+            <div class="row">
+            <div class="col-sm-9">
+            </div><!-- /col-sm-9 -->
+            </div><!--/row-->
+        </div><!-- /col-sm-3 -->
+        </div><!-- /row -->
+    </div><!-- /container -->
+</footer><!-- /footer -->
+
+	<!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+    <!-- Boostrap JS -->
+	<script src="js/bootstrap.min.js"></script>
+    <!-- Masonry JavaScript -->
+    <script src="js/masonry.js"></script>
+    <!-- Nav JS -->
+	<script src="js/nav.js"></script>
+    <!-- Smooth scroll JS -->
+    <script src="js/smoothscroll.js"></script>
+    <!-- Wow JavaScript -->
+    <script src="js/wow.js"></script>
+    
+    <script>
+    new WOW().init();
+    </script>
+	</body>
+</html>
